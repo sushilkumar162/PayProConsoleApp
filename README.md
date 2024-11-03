@@ -53,7 +53,7 @@ Clone the repository to your local machine:
 
 bash
 
-git clone <repository-url>
+git clone <[repository-url](https://github.com/sushilkumar162/PayProConsoleApp.git)>
 cd PayProConsoleAppSol
 Navigate to the PayProConsoleApp folder and open appsettings.json. Update the file paths if needed.
 
