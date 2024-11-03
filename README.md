@@ -121,20 +121,22 @@ Finance.csv
 csv
 
 EmployeeId,Name,HoursWorked,HourlyRate
-1001,John Doe,40,25.50
-1002,Jane Smith,35,30.00
-1003,Chris Johnson,45,20.00
+1001,Roma Jaiswal,40,25.50
+1002,Amit Bharti,35,30.00
+1003,Ritesh Kumar,45,20.00
+
 HR.csv
 
 csv
 
 EmployeeId,Name,HoursWorked,HourlyRate
-2001,Emily Taylor,38,22.50
-2002,Alex Lee,40,21.00
-2003,Patricia Kim,42,24.00
-Example Output
-PayrollReport.txt
+2001,Rakesh Pandey,40,28.00
+2002,Raghu Ram,38,32.50
+2003,Dinesh Kartik,41,26.00
 
+Example Output
+Finance_Report.txt
+HR_Report.txt
 
 
 Department: Finance
@@ -145,7 +147,5 @@ Department: HR
 Total Payroll: $2690.00
 Highest Paid Employee: Patricia Kim ($1008.00)
 ErrorLog.txt (if any validation errors are encountered)
-
-
 
 Error in Finance.csv: Invalid HoursWorked for Employee 1004 (not a valid decimal)
