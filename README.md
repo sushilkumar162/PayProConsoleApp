@@ -109,9 +109,9 @@ dotnet test
 ### Example Output
 - **Finance_Report.txt**
   ```
- Department: Finance
- Total Payroll: $2970,00
- Highest Paid Employee: Amit Bharti ($1050,00)
+  Department: Finance
+  Total Payroll: $2970,00
+  Highest Paid Employee: Amit Bharti ($1050,00)
   ```
 
 - **HR_Report.txt**
