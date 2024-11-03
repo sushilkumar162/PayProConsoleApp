@@ -1,8 +1,8 @@
-##PayProConsoleApp
+## PayProConsoleApp
 PayProConsoleApp is a C# console application designed to process payroll data across multiple departments. Each department's payroll data is stored in a separate CSV file. The application reads these files, validates the data, calculates payroll for each employee, and generates a summary report. Validation errors are logged separately, and the application supports asynchronous processing to handle multiple files concurrently.
 
-##Table of Contents
-*Features
+## Table of Contents
+Features
 *Project Structure
 *Prerequisites
 *Setup and Configuration
@@ -11,14 +11,14 @@ PayProConsoleApp is a C# console application designed to process payroll data ac
 *Running Tests
 *Example Input and Output
 
-##Features
+## Features
 Concurrent Processing: Processes multiple department files asynchronously.
 Data Validation: Ensures each payroll entry has the required fields and correct data types.
 Payroll Calculation: Calculates total payroll for each department and identifies the highest-paid employee.
 Error Logging: Logs validation errors to a dedicated error log file.
 Configuration File: Customizable paths for input files, reports, and error logs through appsettings.json.
 
-##Project Structure
+## Project Structure
 
 
 PayProConsoleAppSol
@@ -46,7 +46,7 @@ PayProConsoleAppSol
     ├── EmployeeValidatorTests.cs
     └── PayrollCalculationServiceTests.cs
 
-##Prerequisites
+## Prerequisites
 .NET SDK (version 5.0 or later)
 Setup and Configuration
 Clone the repository to your local machine:
